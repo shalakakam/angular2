@@ -1,0 +1,21 @@
+<h1>Add Customer</h1>
+<div class="container col">
+		<form method="post" #userForm="ngForm" (ngSubmit)="onSubmit(user, userForm)">
+			<h4>First name:</h4>
+			<input class="form-control" [class.invalid]="yname.touched && yname.invalid" pattern="[a-zA-Z]+" [(ngModel)] = "user.fname" type="text" name="fname" value="Mickey" required #yname="ngModel" (change)="getModel(yname)">
+			<div [class.invalid]="yname.touched && yname.invalid" *ngIf="yname.touched && yname.invalid">
+				<span *ngIf="yname.errors.required">First Name is required</span>
+				<span *ngIf="yname.errors.pattern">Only Alphabets are accepted.</span>
+			</div>
+			<h4>Last name:</h4>
+			<input class="form-control" [class.invalid]="xname.touched && xname.invalid" [(ngModel)] = "user.lname" type="text" name="lname" value="Mouse" required pattern="[a-zA-Z]+" #xname="ngModel">
+			
+			<div [class.invalid]="xname.touched && xname.invalid" *ngIf="xname.invalid">
+				<span *ngIf="xname.errors.required">Last Name is required</span>
+				<span *ngIf="xname.errors.pattern">Only Alphabets are accepted.</span>
+			</div>
+			
+			<br><br>
+			<button class="but" type="submit" value="Submit">Submit</button>
+		</form>
+</div>

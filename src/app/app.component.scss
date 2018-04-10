@@ -1,0 +1,213 @@
+$col1:white;
+$col2:black;
+$col3:#00bfff;
+$col4:#3ea49f;
+$col5:#73AD21;
+$col6:#b0ffb3;
+
+img
+	{
+		margin-left:-14px;
+		margin-top:-9px;
+	}
+.first
+	{
+	margin-left:290px;
+	margin-top:30px;
+	font-size:18pt;
+     
+	}
+.first:hover
+	{
+	 color:pink;
+	}
+.navbar
+	{
+	
+	height:99px;
+	background-color:transparent;
+	border:none;
+	
+	}
+
+h4
+	{
+		color:White;
+		font-size:29px;
+		margin-left:-20px;
+		margin-top:20px;
+	}
+h3
+	{
+		color:black;
+	}	
+h5
+	{
+	  color:$col3;
+	}
+.image
+	{
+		background-image:url('../assets/img/kashan1.jpg');	
+		background-size:100% 100%;
+		width:1349px;
+		height:800px;
+		background-repeat:no-repeat;
+		margin-top:-150px;
+	}
+.fab
+	{
+	color:$col1;
+	height:60px;
+	width:60px;
+	position:fixed;
+	top:100px;
+	/*background:#3ea49f;*/
+	padding:10px;
+	text-align:center;
+	border-radius:33%;
+	font-size:30px;
+	margin-top:22px;
+	
+	}
+h3
+	{
+        margin-top:400px;
+        margin-left:200px;
+		font-size:30pt;
+	}
+.cust
+	{
+        margin-top:400px;
+        margin-left:200px;
+	}
+.fab1
+{
+		width: 50px;
+		height: 50px;
+		background: $col4;
+		-webkit-transition: width 3s; /* For Safari 3.1 to 6.0 */
+		transition: width 2s;
+		margin-left:0px;
+		border-radius: 15px 100px 100px 5px;
+		
+}
+
+.fab1:hover 
+{
+    width: 150px;
+}
+.fa
+	{
+	margin-left:10px;
+	}
+
+.book
+	{
+		margin-left:-83px;
+		margin-top:-25px;
+		font-size:12pt;
+	}
+.book1
+	{
+		margin-left:-83px;
+		margin-top:-30px;
+		font-size:12pt;
+	}
+.book2
+	{
+		margin-left:-90px;
+		margin-top:-20px;
+		font-size:12pt;
+	}
+h6
+	{
+       margin-top:20px;
+	}
+
+.f1
+	{
+	margin-top:90px;
+	}
+.f2
+   {
+   margin-top:160px;
+   }
+h1
+	{
+	  text-align:center;
+	  font-size:30pt;
+
+	}
+	h2
+	{
+	  text-align:center;
+	  font-size:12pt;
+
+	}
+.rcorners {
+    border-radius: 150px;
+    border: 2px solid $col5;
+    padding: 30px;
+    width: 230px;
+    height: 80px;
+	text-align:center;
+	margin-left:50px;
+	background:$col6;
+}
+.rcorners1 {
+    border-radius: 150px;
+    border: 2px solid $col5;
+    padding: 30px;
+    width: 230px;
+    height: 80px;
+	margin-left:310px;
+	background:$col6;
+	
+	margin-top:-80px;
+	text-align:center;
+}
+.rcorners2 {
+    border-radius: 150px;
+    border: 2px solid $col5;
+    padding: 30px;
+    width: 230px;
+    height: 80px;
+	margin-left:570px;
+	margin-top:-80px;
+	text-align:center;
+	background:$col6;
+}
+.rcorners3 {
+    border-radius: 150px;
+    border: 2px solid $col5;
+    padding: 30px;
+    width: 230px;
+    height: 80px;
+	margin-left:830px;
+	margin-top:-80px;
+	text-align:center;
+	background:$col6;
+}
+.rcorners4 {
+    border-radius: 150px;
+    border: 2px solid $col5;
+    padding: 30px;
+    width: 230px;
+    height: 80px;
+	margin-left:1090px;
+	margin-top:-80px;
+	text-align:center;
+	background:$col6;
+
+	}
+.rcorners4:hover
+ {
+    width:100px;
+ }
+	p{
+	color:$col1;
+	margin-top:-10px;
+	margin-left:80px;
+	font-size:20pt;
+	}
+
